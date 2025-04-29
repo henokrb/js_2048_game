@@ -28,7 +28,7 @@ document.addEventListener('keydown', (e) => {
     return;
   }
 
-  const key = event.key;
+  const key = e.key;
 
   if (key === 'ArrowLeft') {
     game.moveLeft();
